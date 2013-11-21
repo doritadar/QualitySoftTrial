@@ -1,4 +1,3 @@
-
 public class TestContactList {
 	public static void main(String args[]){
 		ContactList cl1;
@@ -7,7 +6,7 @@ public class TestContactList {
 		cl1.printContactsList();
 		cl1.searchContact();
 		System.out.println(cl1);
-		System.out.println();
+		System.out.println();lk
 		
 		Name person1Name = new Name();
 		person1Name.readName();

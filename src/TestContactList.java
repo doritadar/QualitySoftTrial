@@ -1,33 +1,14 @@
-public class TestContactList {
+/**
+ * TestContactsList tests adding new contacts to the end of list 
+ */
+public class TestContactsList {
 	public static void main(String args[]){
-		ContactList cl1;
-	    cl1 = new ContactList();
+		ContactsList cl1;
+	        cl1 = new ContactsList();
+		cl1.addNewContact();
 		cl1.addNewContact();
 		cl1.printContactsList();
-		cl1.searchContact();
-		System.out.println(cl1);
-		System.out.println();lk
-		
-		Name person1Name = new Name();
-		person1Name.readName();
-		System.out.println(person1Name);
-		System.out.println();
-		
-		StreetAddress person1StreetAddress = new StreetAddress();
-		person1StreetAddress.readStreetAddress();
-		System.out.println(person1StreetAddress);
-		System.out.println();		
-		
-		Person person1;
-		person1 = new Person();
-		person1.readPerson();
-		person1.compare();
-		System.out.println(person1);
-		System.out.println();
-		
-		
-	}
-
-}
+		}
+	}	
 
 

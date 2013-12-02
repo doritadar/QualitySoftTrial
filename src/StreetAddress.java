@@ -45,10 +45,10 @@ public class StreetAddress {
 	 * ToString method formats street address info
 	 */
 	public String toString(){
-		if (suite == null){
+		if ("".equals(suite)){
 			return street + " " +
 				   city + ", " + state + " " + zip + " " +
-				   country + "\n" ;
+				   country ;
 		}
 		else{
 			return street + " " + "suite " + suite + " " +
@@ -58,6 +58,7 @@ public class StreetAddress {
 		
 	}
 }
+
 
 
 
